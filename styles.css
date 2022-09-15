@@ -1,0 +1,127 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+     background-color:antiquewhite;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+}
+
+.main-content{
+     position: relative;
+     width: 100%;
+     max-width: 1000px;
+     min-height: 1000px;
+     margin:  50px;
+     background: #fff;
+     display: grid;
+     grid-template-columns: 1fr 2fr;
+     box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+.main-content .left-section{
+     position: relative;
+     background-color: rgb(230, 142, 27);
+     padding: 40px;
+}
+
+.left-content .profile-details{
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     padding-bottom: 20px;
+   
+     align-items: center;
+}
+.left-content{
+     padding:  1rem;
+}
+.profile-details .Profile-image{
+      display: block;
+      margin: auto;
+      width: 80%;
+      border: 5px solid white;
+      border-radius: 30%;
+      overflow: hidden;
+}
+
+.profile-details  .name{
+     color: #fff;
+     font-size: 1.2rem;
+     text-transform: uppercase;
+     text-align: center;
+     font-weight: 700;
+       word-spacing: 0.02px;
+       padding: 0.8rem;
+}
+.profile-details .designation{
+     font-size: 1rem;
+     color:crimson;
+     text-align: center;
+     text-transform: uppercase;
+     padding-bottom: 0.5rem;
+     border-bottom: 1px solid #fff;
+}
+.profile-details .description{
+     color: #fff;
+     font-size: 0.75rem;
+     text-align: center;
+     padding: 1rem;
+}
+.contact-item ul{
+      
+      text-align: center ;
+}
+.contact-item ul li{
+   
+        list-style: none;
+        display: inline;
+        padding: 15px;
+        cursor: pointer;
+
+}
+.contact-item ul li a{
+       text-decoration: none;
+       font-size: 20px;
+       color: aliceblue;
+
+}
+.contact-item .skills{
+     font-size: 0.75rem;
+     text-align: center;
+     text-transform: uppercase;
+     padding: 1rem 0.5rem;
+}
+.contact-item .skill-name{
+     font-size: 0.65rem;
+      font-weight: 700;
+      text-align:left;
+      padding-bottom: 0.5rem;
+}
+.contact-item .Progress-bar{
+     border: 1px  white solid ;
+     height: 4px;
+}
+
+/* right section */
+
+.right-section .right-main-content{
+          padding: 2rem 3rem;
+}
+.right-section .right-main-content .right-title{
+       font-size: 1.2rem;
+       text-transform: uppercase;
+       font-weight: 700;
+       padding: 0.5rem;
+     letter-spacing: 1px;
+}
+.right-section .right-main-content .box{
+         display: flex;
+         flex-direction: column;
+
+}
