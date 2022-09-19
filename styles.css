@@ -112,7 +112,7 @@ body{
 
 .right-section .right-main-content{
           padding: 2rem 3rem;
-}
+}       
 .right-section .right-main-content .right-title{
        font-size: 1.2rem;
        text-transform: uppercase;
@@ -122,6 +122,37 @@ body{
 }
 .right-section .right-main-content .box{
          display: flex;
-         flex-direction: column;
+         flex-direction:column;
 
+
+}
+.education .box span{
+     font-weight: 700;
+}
+
+.education .box p{
+     color: red
+}
+
+.education .box h5{
+     color: blue;
+}
+
+
+
+.experince .ex-box p{
+     color: red
+}
+
+.experince .ex-box h5{
+     color: blue;
+     font-weight: 700;
+}
+
+@media (max-width: 300px){
+     .main-content{
+          margin: 10px;
+           display: grid;
+           grid-template-columns: repeat(1, 1fr);
+     }
 }
